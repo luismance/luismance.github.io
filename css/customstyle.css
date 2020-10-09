@@ -1,0 +1,38 @@
+@font-face{
+	font-family: jellies;
+	src: url("../fonts/jellies/Jellies.ttf");
+}
+header{
+	background: rgb(0 0 0 / 10%);
+	text-align: center;
+}
+h1 {
+	color: rgb(0 0 0 / 100%);
+	font-family: jellies !important;
+	font-size: 400%;
+}
+nav {
+	font-variant: small-caps;
+}
+h2 {
+	color: rgb(255 0 0 / 50%);
+}
+body {
+	font-family: Arial, Impact, Courier;
+	line-height: 200%;
+}
+main {
+	display: table;
+	margin: 0 auto;
+}
+section {
+	position: center;
+	display : table-row;
+}
+div {
+	width: 25%;
+	height: 100px;
+	background: rgb(0 0 0 / 70%);
+	color: rgb(255 255 255 / 100%);
+	display: inline-block;
+}

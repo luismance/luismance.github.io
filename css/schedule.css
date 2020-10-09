@@ -1,0 +1,30 @@
+@font-face{
+	font-family: jellies;
+	src: url("../fonts/jellies/Jellies.ttf");
+}
+body {
+	font-family: Arial, Impact, Courier;
+	line-height: 200%;
+}
+header{
+	text-align: center;
+}
+
+h1 {
+	color: rgb(0 0 0 / 100%);
+	font-family: jellies !important;
+	font-size: 400%;
+}
+table {
+	width: 100%;
+}
+td {
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+a {
+	font-weight: bolder;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
