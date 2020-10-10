@@ -19,12 +19,21 @@ table {
 	width: 100%;
 }
 td {
-	padding: 10px;
 	font-weight: bold;
 	text-align: center;
 }
-a {
-	font-weight: bolder;
+
+td:hover {
+	text-decoration: none;
+	background: rgb(248 248 169/ 100%);
 }
+
+a {
+	display: block;
+	font-weight: bolder;
+	text-decoration: none;
+	
+}
+
 
 tr:nth-child(even) {background-color: #f2f2f2;}
