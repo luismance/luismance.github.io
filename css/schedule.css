@@ -2,6 +2,16 @@
 	font-family: jellies;
 	src: url("../fonts/jellies/Jellies.ttf");
 }
+
+@font-face{
+	font-family: fifthgrader;
+	src: url("../fonts/fifth-grader.ttf");
+}
+
+@font-face{
+	font-family: lato;
+	src: url("../fonts/Lato-Regular.ttf");
+}
 body {
 	font-family: Arial, Impact, Courier;
 	line-height: 200%;
@@ -11,15 +21,24 @@ header{
 }
 
 h1 {
-	color: rgb(0 0 0 / 100%);
-	font-family: jellies !important;
+	font-family: fifthgrader !important;
 	font-size: 400%;
+	display: inline-block;
 }
 table {
 	width: 100%;
+	border: 1px;
+	border-collapse: collapse;
+  	border-radius: 1em;
+  	overflow: hidden;
+  	font-size: 20px;
+  	background-color: #e8ffff;
+}
+th {
+	font-variant: small-caps;
+	color: #41aea9;
 }
 td {
-	font-weight: bold;
 	text-align: center;
 }
 
@@ -29,12 +48,18 @@ td:hover {
 }
 
 a {
+	font-family: lato !important;
 	display: block;
 	font-weight: bolder;
 	text-decoration: none;
-	
+	color: #213e3b;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+a:visited {
+	text-decoration: none;
+	color: #213e3b;
+}
+
+tr:nth-child(even) {background-color: #a6f6f1;}
 
 
