@@ -53,6 +53,7 @@ a {
 	font-weight: bolder;
 	text-decoration: none;
 	color: #213e3b;
+	margin : 5px;
 }
 
 a:visited {
