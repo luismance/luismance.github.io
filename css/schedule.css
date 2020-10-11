@@ -61,6 +61,10 @@ a:visited {
 	color: #213e3b;
 }
 
+i {
+	margin-left: 5px;
+}
+
 tr:nth-child(even) {background-color: #a6f6f1;}
 
 
