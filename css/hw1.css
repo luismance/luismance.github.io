@@ -38,7 +38,6 @@ header a{
 
 header a:hover{
 	background-color: rgb(255 255 255 / 100%);
-	transform: rotate(30deg) ;
 }
 
 .active {
@@ -48,8 +47,9 @@ header a:hover{
 .left {
 	background-color: #5d7a3c;
 	display: inline-block;
-	width: 20%;
+	width: 15%;
 	float: left;
+	height: 100vh;
 }
 
 .left img{
@@ -65,4 +65,63 @@ header a:hover{
 	width: 78%;
 	float: left;
 	padding: 5px;
+}
+
+table {
+	border: 2px solid black;
+	margin: 0 auto;
+	width: 70%;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 2px solid black;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom: 5px solid black;
+}
+
+table tr th {
+	background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(142,190,25,0.9612590799031477) 83%);
+	padding: 10px;
+}
+
+table tr th:first-of-type {
+	border-top-left-radius: 10px;
+	text-align: left;
+}
+table tr th:last-of-type {
+	border-top-right-radius: 10px;
+}
+
+table tr:last-of-type th:first-of-type{
+	border-bottom-left-radius: 15px; 
+}
+
+table tr {
+	opacity: 80%;
+}
+table tr td {
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(181 219 139 / 50%);
+	font-size: 15px;
+	border-radius: 2px;
+	text-shadow: 1px 1px;
+}
+
+table tr:hover {
+	opacity: 80%;
+}
+
+
+table tr:hover td {
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(112 190 25 / 50%);
+}
+
+table tr td:first-of-type {
+	text-align: left;
+}
+
+table tr th:last-of-type {
+	border-top-right-radius: 10px;
 }
