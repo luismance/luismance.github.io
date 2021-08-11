@@ -1,0 +1,60 @@
+/*
+    Color Combination
+    #000000
+    #f1f1f1
+    #E18A07
+    #C0C0C0
+*/
+.image-cropper {
+    width: 300px;
+    height: 300px;
+    margin: 80px 0px 0px 0px;
+}
+
+.text_content {
+    margin-top: 20px;
+    color: #f1f1f1;
+}
+
+.card_image {
+    margin: auto;
+    display: block;
+}
+.card_background {
+    background-color: #000000;
+    margin: 10px 0px 10px 0px;
+}
+
+.work_experience_item {
+    color: #000000;
+    background-color: #f1f1f1;
+}
+
+.card_text {
+    color: #f1f1f1;
+    font-size: 25px;
+}
+
+.card_duration {
+    color: #FFCC66;
+}
+
+.card_header {
+    color: #f1f1f1;
+    font-size: 35px;
+}
+
+
+body {
+    background-color: #1A1A1A;
+}
+
+.profile_description {
+    color: #f1f1f1;
+    font-size: 23px;
+}
+
+.profile_icons {
+    font-size: 30px;
+    color: #f1f1f1;
+}
