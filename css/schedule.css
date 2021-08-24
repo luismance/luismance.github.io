@@ -15,15 +15,16 @@
 body {
 	font-family: Arial, Impact, Courier;
 	line-height: 200%;
+	background-color: #1FC8F0;
 }
 header{
 	text-align: center;
+	
 }
 
 h1 {
 	font-family: fifthgrader !important;
 	font-size: 400%;
-	display: inline-block;
 }
 table {
 	width: 100%;
@@ -66,5 +67,20 @@ i {
 }
 
 tr:nth-child(even) {background-color: #a6f6f1;}
+
+.school_logo{
+	border-radius: 110px;
+
+}
+
+.student_name {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.teacher_name {
+	font-size: medium;
+	font-weight: bolder;
+}
 
 
